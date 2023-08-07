@@ -1,5 +1,9 @@
-const HomePage = () => {
-  return <div className=''>Dashboard?</div>;
+const DashboardPage = () => {
+  return (
+    <div className=''>
+      <p>Dashboard Page (protected)</p>
+    </div>
+  );
 };
 
-export default HomePage;
+export default DashboardPage;
