@@ -1,12 +1,13 @@
-import { Button } from './ui/button';
-import { HamburgerMenuIcon } from '@radix-ui/react-icons';
+import { UserButton } from '@clerk/nextjs';
+import MobileSidebar from './Mobile-sidebar';
 
 const Navbar = () => {
   return (
     <div className='flex items-center p-4'>
-      <Button>
-        <HamburgerMenuIcon  className='text-white md:hidden' />
-      </Button>
+      <MobileSidebar />
+      <div className='flex w-full justify-end'>
+        <UserButton afterSignOutUrl='/' />
+      </div>
     </div>
   );
 };
