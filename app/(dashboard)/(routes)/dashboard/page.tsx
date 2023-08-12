@@ -11,6 +11,7 @@ import {
   VideoIcon,
 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { test } from 'node:test';
 
 const tools = [
   {
@@ -59,7 +60,7 @@ const DashboardPage = () => {
           Explore the power of AI!
         </h2>
         <p className='text-muted-foreground font-light text-sm md:text-lg text-center'>
-          Chat with the smartes AI - Experience
+          Chat with the smartest AI - Experience
           the power of AI!
         </p>
       </div>
@@ -95,5 +96,4 @@ const DashboardPage = () => {
     </div>
   );
 };
-
 export default DashboardPage;
