@@ -8,6 +8,7 @@ import { usePathname } from 'next/navigation';
 import { Montserrat } from 'next/font/google';
 
 import {
+  Code,
   ImageIcon,
   LayoutDashboard,
   LucideKeyboard,
@@ -55,7 +56,7 @@ const routes = [
   },
   {
     label: 'Code Generation',
-    icon: LucideKeyboard,
+    icon: Code,
     href: '/code',
     color: 'text-red-500',
   },
